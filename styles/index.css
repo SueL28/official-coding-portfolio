@@ -1,0 +1,157 @@
+:root {
+  --primary-color: rgb(255, 161, 98);
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+}
+
+.contact-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.icons {
+  display: block;
+  text-align: center;
+  font-size: 25pt;
+}
+
+.github-icon {
+  margin-right: 10px;
+}
+
+.linkedin-icon {
+  margin-left: 10px;
+}
+
+.contact-button:hover {
+  text-decoration: underline;
+}
+
+.skills-container {
+  text-align: center;
+  background-color: grey;
+  padding: 30px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-icons {
+  margin: 20px;
+}
+
+.subheadings {
+  max-width: 750px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.about-me-container {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
+.about-me-photo {
+  text-align: center;
+}
+
+.profile-pic {
+  max-width: 400px;
+}
+
+.about-me-text {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.projects-container {
+  text-align: center;
+  background-color: grey;
+  padding: 30px;
+}
+
+.projects-images {
+  text-align: center;
+}
+
+.project-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.projects-text {
+  text-align: center;
+}
+
+.single-project-button {
+  text-decoration: none;
+}
+
+.single-project-button:hover {
+  text-decoration: underline;
+}
+
+.project-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.project-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact-container {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-heading {
+  padding: 30px;
+}
+
+.contact-text {
+  display: block;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.get-in-touch-button {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.get-in-touch-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 567px) {
+  img {
+    display: none;
+  }
+
+  h3 {
+    font-size: 13pt;
+  }
+}
