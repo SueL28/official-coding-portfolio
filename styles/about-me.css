@@ -1,0 +1,8 @@
+:root {
+    --primary-color: rgb(255, 161, 98);
+    --secondary-color: rgba(255, 203, 166, 0.24);
+    --highlight-color:rgb(255, 102, 0);
+    --primary-font: 'Barlow Semi Condensed', sans-serif;
+    --h1-headings: 'Roboto', sans-serif;
+    --font-headings: 'Questrial', sans-serif;
+  }
