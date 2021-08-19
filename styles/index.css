@@ -1,11 +1,15 @@
 :root {
   --primary-color: rgb(255, 161, 98);
+  --secondary-color: rgba(255, 203, 166, 0.24);
+  --primary-font: 'Barlow Semi Condensed', sans-serif;
+  --font-headings: 'Fjalla One', sans-serif;
 }
 
 h1 {
   display: block;
   text-align: center;
   margin-top: 50px;
+  font-family: var(--font-headings);
 }
 
 h3 {
@@ -40,7 +44,7 @@ h3 {
 
 .skills-container {
   text-align: center;
-  background-color: grey;
+  background-color: var(--secondary-color);
   padding: 30px;
 }
 
@@ -76,11 +80,15 @@ h3 {
 .about-me-text {
   margin-top: 90px;
   text-align: center;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 15pt;
 }
 
 .projects-container {
   text-align: center;
-  background-color: grey;
+  background-color: var(--secondary-color);
   padding: 30px;
 }
 
