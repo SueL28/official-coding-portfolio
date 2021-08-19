@@ -3,19 +3,22 @@
   --secondary-color: rgba(255, 203, 166, 0.24);
   --highlight-color:rgb(255, 102, 0);
   --primary-font: 'Barlow Semi Condensed', sans-serif;
-  --font-headings: 'Fjalla One', sans-serif;
+  --h1-headings: 'Roboto', sans-serif;
+  --font-headings: 'Questrial', sans-serif;
 }
 
 h1 {
   display: block;
   text-align: center;
   margin-top: 50px;
-  font-family: var(--font-headings);
+  font-family: var(--h1-headings);
+  
 }
 
 h3 {
   display: block;
   text-align: center;
+  font-family: var(--font-headings);
 }
 
 a{
@@ -31,7 +34,9 @@ margin-bottom: 10px;
 background-color: var(--primary-color);
 color: black;
 border: none;
-font-weight: 500;
+font-family: var(--primary-font);
+font-weight: 600;
+font-size: 16pt;
 transition: all 150ms ease-in-out;
 
 }
@@ -67,9 +72,7 @@ transition: all 150ms ease-in-out;
   margin-left: 10px;
 }
 
-.contact-button:hover {
-  text-decoration: underline;
-}
+/*SKILLS CSS SECTION */
 
 .skills-container {
   text-align: center;
@@ -90,6 +93,9 @@ transition: all 150ms ease-in-out;
   max-width: 750px;
   margin-top: 30px;
   margin-bottom: 40px;
+  font-family: var(--font-headings);
+  font-weight: bolder;
+  font-size: 35pt;
 }
 
 .about-me-container {
@@ -98,22 +104,29 @@ transition: all 150ms ease-in-out;
   padding: 30px;
 }
 
+
+/*ABOUT ME CSS SECTION */
+
 .about-me-photo {
   text-align: center;
 }
 
 .profile-pic {
   max-width: 400px;
+  border-radius: 10px;
 }
 
 .about-me-text {
-  margin-top: 90px;
+  margin-top: 60px;
   text-align: center;
   font-family: var(--primary-font);
   font-weight: 500;
   line-height: 1.5;
-  font-size: 15pt;
+  font-size: 16pt;
 }
+
+
+/*PROJECTS CSS SECTION */
 
 .projects-container {
   text-align: center;
@@ -128,10 +141,21 @@ transition: all 150ms ease-in-out;
 .project-title {
   margin-top: 30px;
   margin-bottom: 20px;
+  font-family: var(--font-headings);
+  font-weight: 600;
+  font-size: 28pt;
 }
 
 .projects-text {
   text-align: center;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16pt;
+}
+
+.project-pic{
+  border-radius: 10px;
 }
 
 .single-project-button {
@@ -142,7 +166,9 @@ transition: all 150ms ease-in-out;
   background-color: var(--primary-color);
   color: black;
   border: none;
-  font-weight: 500;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 16pt;
   transition: all 150ms ease-in-out;
   
   }
@@ -165,6 +191,9 @@ transition: all 150ms ease-in-out;
   cursor: pointer;
 }
 
+
+/*CONTACT CSS SECTION */
+
 .contact-container {
   display: block;
   text-align: center;
@@ -174,12 +203,19 @@ transition: all 150ms ease-in-out;
 
 .contact-heading {
   padding: 30px;
+  font-family: var(--font-headings);
+  font-weight: bolder;
+  font-size: 35pt;
 }
 
 .contact-text {
   display: block;
   margin: 0 auto;
   max-width: 750px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16pt;
 }
 
 .get-in-touch-button {
@@ -195,11 +231,42 @@ transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 567px) {
-  img {
+
+  h1{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  img{
+    max-width: 50px;
+  }
+
+  .profile-pic {
+    display: none;
+  }
+
+  .project-pic{
     display: none;
   }
 
   h3 {
     font-size: 13pt;
+  }
+}
+
+@media (max-width: 768px){
+  .profile-pic{
+    max-width: 310px;
+  }
+
+  .project-pic{
+    max-width: 310px;
   }
 }
