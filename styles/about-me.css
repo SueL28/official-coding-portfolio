@@ -31,6 +31,14 @@
     text-decoration: none;
   }
 
+  .nav-hover-highlight{
+    transition: all 150ms ease-in-out;
+  }
+  
+  .nav-hover-highlight:hover{
+    font-size: 17pt;
+  }
+
   .nav-colour{
     background-color: var(--secondary-color);
   }
@@ -90,7 +98,7 @@
   background-color: var(--tertiary-color);
   border-radius: 7px;
   border: none;
-  transition: all 150ms ease-in-out;
+  transition: all 160ms ease-in-out;
 }
 
 .certificate:hover{

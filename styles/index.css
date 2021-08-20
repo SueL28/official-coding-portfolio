@@ -48,6 +48,14 @@ a{
   font-family: var(--h1-headings);
 }
 
+.nav-hover-highlight{
+  transition: all 150ms ease-in-out;
+}
+
+.nav-hover-highlight:hover{
+  font-size: 17pt;
+}
+
 .entire-body-container{
   margin-top: 140px;
   margin-bottom: 80px;
@@ -214,6 +222,7 @@ transition: all 150ms ease-in-out;
   text-align: center;
   text-decoration: none;
   padding: 20px;
+  transition: all 150ms ease-in-out;
 }
 
 .project-button:hover {
@@ -253,6 +262,7 @@ transition: all 150ms ease-in-out;
   display: block;
   padding: 10px;
   margin-bottom: 50px;
+  transition: all 150ms ease-in-out;
 }
 
 .get-in-touch-button:hover {

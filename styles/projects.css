@@ -29,6 +29,14 @@ a{
   text-decoration: none;
 }
 
+.nav-hover-highlight{
+  transition: all 150ms ease-in-out;
+}
+
+.nav-hover-highlight:hover{
+  font-size: 17pt;
+}
+
 .nav-colour{
   background-color: var(--secondary-color);
 }
@@ -102,6 +110,7 @@ a{
   background-color: var(--tertiary-color);
   padding: 30px;
   border-radius: 7px;
+  transition: all 150ms ease-in-out;
 }
 
 .single-project-button:hover{
