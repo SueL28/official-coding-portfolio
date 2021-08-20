@@ -24,6 +24,7 @@ h3 {
   display: block;
   text-align: center;
   font-family: var(--font-headings);
+  font-weight: bolder;
 }
 
 a{
@@ -132,7 +133,7 @@ transition: all 150ms ease-in-out;
   font-family: var(--primary-font);
   font-weight: 500;
   line-height: 1.5;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 
@@ -161,7 +162,7 @@ transition: all 150ms ease-in-out;
   font-family: var(--primary-font);
   font-weight: 500;
   line-height: 1.5;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 
 .project-pic{
@@ -259,7 +260,7 @@ transition: all 150ms ease-in-out;
 
   h3{
     text-align: center;
-    font-weight: bolder;
+
 
   }
 
