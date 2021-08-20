@@ -17,6 +17,7 @@ h1 {
   text-align: center;
   margin-top: 50px;
   font-family: var(--h1-headings);
+  font-weight: bolder;
   
 }
 
@@ -25,10 +26,15 @@ h3 {
   text-align: center;
   font-family: var(--font-headings);
   font-weight: bolder;
+  
 }
 
 a{
   text-decoration: none;
+}
+
+.header-line{
+  opacity: 0.75;
 }
 
 .nav-logo{
@@ -258,6 +264,7 @@ transition: all 150ms ease-in-out;
   font-size: 16pt;
   font-weight: 600;
   font-family: var(--primary-font);
+  opacity: 0.70;
 }
 
 @media (max-width: 567px) {

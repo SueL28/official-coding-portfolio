@@ -162,6 +162,7 @@ a{
     font-weight: 600;
     font-family: var(--primary-font);
     text-align: center;
+    opacity: 0.70;
   }
 
   @media (max-width: 567px) {
