@@ -1,8 +1,147 @@
 :root {
     --primary-color: rgb(255, 161, 98);
     --secondary-color: rgba(255, 203, 166, 0.24);
+    --tertiary-color: rgba(248, 183, 139, 0.479);
     --highlight-color:rgb(255, 102, 0);
     --primary-font: 'Barlow Semi Condensed', sans-serif;
     --h1-headings: 'Roboto', sans-serif;
     --font-headings: 'Questrial', sans-serif;
   }
+
+  header{
+    margin-top: 30px;
+    background-color: var(--secondary-color);
+    padding: 80px;
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-family: var(--h1-headings);
+    font-size: 40pt;
+  }
+
+  h2{
+    font-family: var(--h1-headings);
+    font-size: 28pt;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  /* HEADER */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25pt;
+  color: var(--primary-color);
+}
+
+.icon-button{
+  color: var(--primary-color);
+  font-size: 35pt;
+  transition: all 150ms ease-in-out;
+}
+
+.icon-button:hover{
+  color: var(--highlight-color);
+  font-size: 40pt;
+}
+
+.github-icon {
+  margin-right: 10px;
+}
+
+.linkedin-icon {
+  margin-left: 10px;
+}
+
+/* PAST WORK SECTION */
+
+.certificate-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.certificate{
+  background-color: var(--tertiary-color);
+  border-radius: 7px;
+  border: none;
+  transition: all 150ms ease-in-out;
+}
+
+.certificate:hover{
+  background-color: var(--secondary-color);
+  padding: 15px;
+  border: 3px solid rgba(255, 166, 0, 0.349);
+  border-radius: 10px;
+}
+
+.past-work-text{
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.work-text{
+  font-family: (--primary-font);
+  font-size: 18pt;
+  font-weight: 400;
+}
+
+/* COLLABORATE SECTION */
+
+.collaborate-container{
+  background-color: var(--secondary-color);
+  padding: 50px;
+  padding-bottom: 60px;
+
+}
+
+.collab-heading{
+  text-align: center;
+  font-size: 35pt;
+  margin-top: 30px;
+}
+
+.collaborate-text{
+  display: block;
+  margin: 0 auto;
+  max-width: 750px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.lets-work-button{
+  display: block;
+  margin: 0 auto;
+  padding: 15px 25px;
+  margin-bottom: 10px;
+  background-color: var(--primary-color);
+  color: black;
+  border: none;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 20pt;
+  transition: all 150ms ease-in-out;
+  }
+
+  .lets-work-button:hover{
+    background-color: var(--highlight-color);
+    color: white;
+    text-decoration: none;
+    font-size: 22pt;
+  }
+
+  .footer-text{
+  font-size: 16pt;
+  font-weight: 600;
+  font-family: var(--primary-font);
+  text-align: center;
+}
