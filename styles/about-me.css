@@ -145,3 +145,102 @@
   font-family: var(--primary-font);
   text-align: center;
 }
+
+@media (max-width: 567px) {
+
+  h1{
+    font-size: 25pt;
+    text-align: center;
+  }
+  
+
+  h2{
+    font-size: 20pt;
+    text-align: left;
+  }
+
+
+  .icon-button{
+    font-size: 23pt;
+    text-align: center;
+  }
+  
+  .work-text{
+    font-size: 13pt;
+    text-align: center;
+  
+  }
+  
+  .certificate-container{
+    padding: 30px;
+  }
+  
+  .certificate{
+    margin-left: none;
+  }
+  
+  .certificate-disappear{
+    display: none;
+  }
+  
+  .past-work-text{
+    text-align: left;
+  }
+
+  .work-text{
+    text-align: left;
+    
+  }
+
+  .collab-heading{
+    font-size: 25pt;
+  }
+
+  .collaborate-text{
+    font-size: 14pt;
+  }
+
+  .lets-work-button{
+    font-size: 18pt;
+  }
+
+  .footer-text{
+    font-size: 15pt;
+  }
+
+}
+
+@media (max-width: 1024px){
+
+h2{
+  font-size: 20pt;
+  text-align: center;
+}
+
+.certificate-disappear{
+  display: none;
+}
+
+.work-text{
+  font-size: 13pt;
+  text-align: block;
+
+}
+
+.certificate-container{
+  padding: 30px;
+}
+
+.certificate{
+  margin-left: 10px;
+}
+
+.certificate-disappear{
+  display: none;
+}
+
+.past-work-text{
+  margin-left: 23px;
+}
+
+}

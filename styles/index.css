@@ -279,11 +279,40 @@ transition: all 150ms ease-in-out;
 }
 
 @media (max-width: 768px){
+
+
   .profile-pic{
     max-width: 310px;
+    margin-top: 80px;
+    
+  }
+
+  .about-me-text{
+    margin-top: 0;
   }
 
   .project-pic{
     max-width: 310px;
+
   }
+  
+  .contact-text{
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 1024px){
+  .profile-pic{
+    margin-top: 30px;
+  }
+
+  .about-me-text{
+    margin-top: none  ;
+  }
+
+  .project-pic{
+    margin-top: 130px;
+    max-width: 310px;
+  }
+
 }
