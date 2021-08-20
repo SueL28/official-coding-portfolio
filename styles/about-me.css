@@ -210,6 +210,55 @@
 
 }
 
+@media (max-width: 768px){
+
+  h2{
+    font-size: 18pt;
+    text-align: center;
+  }
+  
+  .certificate-disappear{
+    display: none;
+  }
+  
+  .work-text{
+    font-size: 13pt;
+    text-align: block;
+  
+  }
+  
+  .certificate-container{
+    padding: 30px;
+  }
+  
+  .certificate{
+    margin-left: 0;
+    margin-top: 90px;
+  }
+  
+  .certificate-disappear{
+    display: none;
+  }
+  
+  .past-work-text{
+    margin-left: 23px;
+  }
+
+  .collab-heading{
+    font-size: 32pt;
+  }
+
+  .collaborate-text{
+    font-size: 20pt;
+    max-width: 500px;
+  }
+
+  .lets-work-button{
+    font-size: 22pt;
+  }
+  
+  }
+
 @media (max-width: 1024px){
 
 h2{
