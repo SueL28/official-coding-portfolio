@@ -45,15 +45,15 @@ color: black;
 border: none;
 font-family: var(--primary-font);
 font-weight: 600;
-font-size: 16pt;
+font-size: 18pt;
 transition: all 150ms ease-in-out;
-
 }
 
 .standard-button:hover{
   background-color: var(--highlight-color);
   color: white;
   text-decoration: none;
+  font-size: 20pt;
 }
 
 .icons {
@@ -71,6 +71,7 @@ transition: all 150ms ease-in-out;
 
 .icon-button:hover{
   color: var(--highlight-color);
+  font-size: 30pt;
 }
 
 .github-icon {
@@ -177,7 +178,7 @@ transition: all 150ms ease-in-out;
   border: none;
   font-family: var(--primary-font);
   font-weight: 600;
-  font-size: 16pt;
+  font-size: 18pt;
   transition: all 150ms ease-in-out;
   
   }
@@ -186,6 +187,7 @@ transition: all 150ms ease-in-out;
     background-color: var(--highlight-color);
     color: white;
     text-decoration: none;
+    font-size: 20pt;
   }
 
 .project-button {
@@ -237,6 +239,12 @@ transition: all 150ms ease-in-out;
 .get-in-touch-button:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.footer-text{
+  font-size: 16pt;
+  font-weight: 600;
+  font-family: var(--primary-font);
 }
 
 @media (max-width: 567px) {

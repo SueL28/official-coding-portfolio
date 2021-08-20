@@ -19,6 +19,7 @@ h1 {
   text-align: center;
   margin-top: 50px;
   font-family: var(--h1-headings);
+  font-size: 40pt;
 }
 
 a{
@@ -50,12 +51,13 @@ a{
 
 .icon-button{
   color: var(--primary-color);
-  font-size: 25pt;
+  font-size: 35pt;
   transition: all 150ms ease-in-out;
 }
 
 .icon-button:hover{
   color: var(--highlight-color);
+  font-size: 40pt;
 }
 
 .github-icon {
@@ -116,7 +118,7 @@ a{
   border: none;
   font-family: var(--primary-font);
   font-weight: 600;
-  font-size: 16pt;
+  font-size: 20pt;
   transition: all 150ms ease-in-out;
   }
 
@@ -124,4 +126,54 @@ a{
     background-color: var(--highlight-color);
     color: white;
     text-decoration: none;
+    font-size: 22pt;
+  }
+
+  .footer-text{
+    font-size: 16pt;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-align: center;
+  }
+
+  @media (max-width: 567px) {
+
+    h1{
+      text-align: center;
+      font-size: 25pt;
+    }
+  
+    h2{
+      text-align: center;
+      font-size: 15pt;
+    }
+  
+    h3{
+      text-align: center;
+      font-size: 17pt;
+    }
+
+    .icon-button{
+      font-size: 23pt;
+    }
+
+    .work-inquiry-text{
+      font-size: 13pt;
+    }
+
+    .project-container{
+      text-align: center;
+ 
+    }
+  }
+
+  @media(max-width:768px){
+    .single-project-button{
+      padding: 10px;
+
+    }
+
+    h2{
+      font-size: 18pt;
+    }
   }
