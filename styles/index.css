@@ -31,6 +31,11 @@ a{
   text-decoration: none;
 }
 
+.nav-logo{
+  max-width: 200px;
+  height: auto;
+}
+
 .entire-body-container{
   margin-top: 140px;
   margin-bottom: 80px;
@@ -46,7 +51,7 @@ color: black;
 border: none;
 font-family: var(--primary-font);
 font-weight: 600;
-font-size: 18pt;
+font-size: 20pt;
 transition: all 150ms ease-in-out;
 }
 
@@ -54,7 +59,7 @@ transition: all 150ms ease-in-out;
   background-color: var(--highlight-color);
   color: white;
   text-decoration: none;
-  font-size: 20pt;
+  font-size: 22pt;
 }
 
 .icons {
@@ -107,6 +112,7 @@ transition: all 150ms ease-in-out;
   font-family: var(--font-headings);
   font-weight: bolder;
   font-size: 35pt;
+  
 }
 
 .about-me-container {
