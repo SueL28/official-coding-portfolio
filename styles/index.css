@@ -36,6 +36,12 @@ a{
   height: auto;
 }
 
+.nav-font{
+  font-size: 15pt;
+  font-weight: bolder;
+  font-family: var(--h1-headings);
+}
+
 .entire-body-container{
   margin-top: 140px;
   margin-bottom: 80px;
