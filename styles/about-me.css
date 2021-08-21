@@ -31,12 +31,16 @@
     text-decoration: none;
   }
 
+  .active-colour{
+    color: var(--highlight-color);
+  }
+
   .nav-hover-highlight{
     transition: all 150ms ease-in-out;
   }
   
   .nav-hover-highlight:hover{
-    font-size: 17pt;
+    font-size: 18pt;
   }
 
   .nav-colour{
@@ -53,7 +57,7 @@
   }
   
   .nav-font{
-    font-size: 15pt;
+    font-size: 16pt;
     font-weight: bolder;
     font-family: var(--h1-headings);
   }
