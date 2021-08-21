@@ -16,7 +16,8 @@ h1 {
   display: block;
   text-align: center;
   margin-top: 50px;
-  font-family: var(--h1-headings);
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 50pt;
   font-weight: bolder;
   
 }

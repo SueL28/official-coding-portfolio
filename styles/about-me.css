@@ -18,8 +18,9 @@
     display: block;
     text-align: center;
     margin-top: 50px;
-    font-family: var(--h1-headings);
-    font-size: 40pt;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 45pt;
+    font-weight: bolder;
   }
 
   h2{
