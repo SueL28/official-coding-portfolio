@@ -181,7 +181,7 @@ transition: all 150ms ease-in-out;
 }
 
 .project-title {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 20px;
   font-family: var(--font-headings);
   font-weight: 600;

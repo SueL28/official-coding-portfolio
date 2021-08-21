@@ -25,6 +25,15 @@ h1 {
   margin-bottom: 50px;
 }
 
+h2{
+  font-family: var(--primary-font);
+}
+
+h3{
+  font-family: var(--font-headings);
+  font-weight: 700;
+}
+
 a{
   text-decoration: none;
 }
@@ -128,8 +137,10 @@ a{
 }
 
 .project-text{
-  font-size: 14pt;
-  font-weight: 600px;
+  font-size: 15pt;
+  font-weight: 800px;
+  font-family: var(--h1-headings);
+
 }
 
 /* WORK INQUIRY SECTION */
