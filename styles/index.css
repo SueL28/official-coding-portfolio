@@ -282,6 +282,10 @@ transition: all 150ms ease-in-out;
   opacity: 0.70;
 }
 
+.open-source-link:hover{
+  color: var(--highlight-color);
+}
+
 @media (max-width: 567px) {
 
   h1{
