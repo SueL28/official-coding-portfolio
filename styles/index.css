@@ -283,6 +283,10 @@ transition: all 150ms ease-in-out;
   opacity: 0.70;
 }
 
+.open-source-link{
+  color: var(--primary-font);
+}
+
 .open-source-link:hover{
   color: var(--highlight-color);
 }
