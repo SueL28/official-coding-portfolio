@@ -25,7 +25,7 @@
 
   h2{
     font-family: var(--h1-headings);
-    font-size: 28pt;
+    font-size: 26pt;
   }
   
   a{
@@ -114,15 +114,16 @@
 }
 
 .past-work-text{
-  margin-top: 90px;
+  margin-top: 20px;
   margin-left: 100px;
 }
 
 .work-text{
   font-family: (--primary-font);
   font-weight: 600;
-  font-size: 18pt;
+  font-size: 17pt;
   font-weight: 400;
+  
 }
 
 /* COLLABORATE SECTION */
